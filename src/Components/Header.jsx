@@ -180,17 +180,6 @@ const Header = () => {
                                     <img src={assignment} alt="assignment" />
                                     <Typography>Orders</Typography>
                                 </IconButton>
-                                <IconButton
-                                    edge="end"
-                                    aria-label="account of current user"
-                                    aria-controls={menuId}
-                                    aria-haspopup="true"
-                                    className={classes.btnsignin}
-                                    onClick={handleProfileMenuOpen}
-                                >
-                                    <img src={Cart} alt="hello" />
-                                    <Typography>Cart</Typography>
-                                </IconButton>
                             </Box>
                             <Box className={classes.sectionMobile}>
                                 <IconButton
